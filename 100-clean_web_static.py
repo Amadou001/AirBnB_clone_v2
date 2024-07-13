@@ -6,7 +6,7 @@ Fabric script for cleaning up old deployments and archives
 from fabric.api import env, local, run
 
 # Environment configuration
-env.hosts = ['100.25.143.96', '54.174.104.61']
+env.hosts = ['54.144.139.236', '54.242.186.62']
 env.user = 'ubuntu'  # Update with your username
 env.key_filename = '/path/to/your/ssh/private_key'  # Update with your SSH key path
 

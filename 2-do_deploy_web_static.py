@@ -6,7 +6,7 @@ from datetime import datetime
 from fabric.api import env, local, put, run, runs_once
 
 
-env.hosts = ['100.25.143.96', '54.174.104.61']
+env.hosts = ['54.144.139.236', '54.242.186.62']
 
 
 def do_pack():
@@ -51,7 +51,6 @@ def do_deploy(archive_path):
         )
 
         run('mkdir -p {}'.format(release_dir))
-        print("antoine")
 
         run('tar -xzf /tmp/{} -C {}'.format(my_archive, release_dir))
 
