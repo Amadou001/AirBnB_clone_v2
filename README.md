@@ -167,5 +167,36 @@ Usage: <class_name>.update(<_id>, <dictionary>)
 (hbnb) ["[User] (98bea5de-9cb0-4d78-8a9d-c4de03521c30) {'updated_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134362), 'name': 'Fred the Frog', 'age': 9, 'id': '98bea5de-9cb0-4d78-8a9d-c4de03521c30', 'created_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134343)}"]
 ```
 <br>
+<br>
+<br>
 
+# AirBnB clone - Deploy static
+# Learning Objectives
+## General
 
+* What is Fabric
+* How to deploy code to a server easily
+* What is a `tgz` archive
+* How to execute Fabric command locally
+* How to execute Fabric command remotely
+* How to transfer files with Fabric
+* How to manage Nginx configuration
+* What is the difference between `root` and `alias` in a Nginx configuration
+
+# Concepts
+
+* [CI/CD](https://intranet.alxswe.com/concepts/43)
+* [AirBnB clone](https://intranet.alxswe.com/concepts/74)
+
+# Resources
+
+* [How to use Fabric](https://intranet.alxswe.com/rltoken/O0PSIn8xJeyeKZadiQCwDQ)
+* [How to use Fabric in Python](https://intranet.alxswe.com/rltoken/ExX8laA65oUjSH8BuEEoeQ)
+* [Fabric and command line options](https://intranet.alxswe.com/rltoken/RsyBHJIhoVBhOcQN-xP4cg)
+* [CI/CD concept page](https://intranet.alxswe.com/rltoken/M_3lKmMAGA2KWujegl-ibA)
+* [Nginx configuration for beginners](https://intranet.alxswe.com/rltoken/Ik7Ax-XDGGPZ__BRN2MK5g)
+* [Difference between root and alias on NGINX](https://intranet.alxswe.com/rltoken/jgPdZF4sWxGLhs7uhYOONw)
+* [Fabric for Python 3](https://intranet.alxswe.com/rltoken/ljadvnqOr21Gy_UsVRIUPQ)
+* [Fabric Documentation](https://intranet.alxswe.com/rltoken/iVwVTXoFjfHxJMnL_JlSpg)
+
+![Illustration](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/288/aribnb_diagram_0.jpg?cache=off)
