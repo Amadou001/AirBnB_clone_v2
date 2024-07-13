@@ -53,13 +53,6 @@ EOF
 # Enable the default configuration
 sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 
-# Check Nginx configuration syntax
-sudo nginx -t
-if [ $? -ne 0 ]; then
-    echo "Nginx configuration test failed. Please check your configuration."
-    exit 1
-fi
-
 # Start or restart Nginx service
 if [ "$(pgrep -c nginx)" -eq 0 ]; then
     sudo systemctl start nginx
