@@ -30,9 +30,7 @@
 
 <br>
 
-### Recommended YouTube playlist to get you started
-
-![](https://youtu.be/MwZwr5Tvyxo?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH)
+![Recommended YouTube playlist to get you started](https://youtu.be/MwZwr5Tvyxo?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH)
 
 <br>
 
