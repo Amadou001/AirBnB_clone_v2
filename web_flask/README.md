@@ -31,8 +31,8 @@
 <br>
 
 ### Recommended YouTube playlist to get you started
-![](https://youtu.be/MwZwr5Tvyxo?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH)
+[](https://youtu.be/MwZwr5Tvyxo?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH)
 
 <br>
 
-!(https://s3.amazonaws.com/intranet-projects-files/concepts/74/hbnb_step3.png)
+![](https://s3.amazonaws.com/intranet-projects-files/concepts/74/hbnb_step3.png)
