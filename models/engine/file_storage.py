@@ -21,7 +21,8 @@ class FileStorage:
         from models.review import Review
 
         if cls:
-            new_objects = {key: value for key, value in FileStorage.__objects.items() if type(value) is cls}
+            new_objects = {key: value for key, value in
+                           FileStorage.__objects.items() if type(value) is cls}
             return new_objects
         else:
             return FileStorage.__objects
@@ -59,7 +60,7 @@ class FileStorage:
             with open(FileStorage.__file_path, 'r') as f:
                 temp = json.load(f)
                 for key, val in temp.items():
-                        self.all()[key] = classes[val['__class__']](**val)
+                    self.all()[key] = classes[val['__class__']](**val)
         except FileNotFoundError:
             pass
 
