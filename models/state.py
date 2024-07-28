@@ -16,9 +16,9 @@ class State(BaseModel, Base):
         cities = relationship("City", back_populates="state",
                               cascade="all, delete-orphan")
     else:
-        from models.city import City
         @property
         def cities(self):
+            from models.city import City
             """
             returns the list of City instances with state_id
             equals to the currentState.id => It will be the
